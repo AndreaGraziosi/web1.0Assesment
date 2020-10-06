@@ -3,24 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
     <title>Andrea Graziosi-Final-Web 1.0</title>
+
 </head>
 <body>
     <div id="student-info">
         <h1>Andrea Graziosi</h1>
-        <p>My favorite Color is Purple and my favorite shoes </p>
+        <p>My favorite Color is Purple and I wear Havaianas </p>
     </div>
 
     <div id="data-input">
+        <h1>Font Styler</h1>
+        <label>Font Size </label>
+        <input id="input-size" type="number">
 
-    
+        <label>
+            Font Family
+            <select id="select-font">
+                <option value="helvitic">Helvetic</option>
+                <option value="arial">arial</option>
+                <option value="times-new-roman">Times New Roman</option>
+                <option value="georgia">Georgia</option>
+            </select>
+        </label>
+        <buttononclick="">Chanhe Font</buttononclick>
+
+        <label> Font Color</label>
+        <input id="input-color" type="color" value="#000">
+
+        <label>Background Color</label>
+        <input id="input-bg-color" type="color" value="#fff">
+
+        <label>Enter Text</label>
+        <textarea id="enter-text"></textarea>
     </div>
 
     <div id="headline-display">
+        <h1 id="display">Style Me!</h1>
 
     </div>
 
     <div id="data-output">
+        <h1>Font Settings</h1>
+        <pre><code>.headline {
+            font-size: <span id="show-size">16</span>px;
+            font-family: <span id="show-font">Times</span>;
+            color: <span id="show-color">#000</span>;
+            background-color: <span id="show-bg-color">#fff</span>;
+        }</code></pre>
+
 
     </div>
 
