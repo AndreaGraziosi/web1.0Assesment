@@ -22,7 +22,7 @@ inputSize.addEventListener("input", handleInput)
 selectFont.addEventListener("select", handleInput)
 inputColor.addEventListener("input", handleInput)
 inputBgColor.addEventListener("input", handleInput)
-
+enterText.addEventListener("input",handleInput)
  
 function handleInput() {
      const fontSize = inputSize.value
@@ -40,6 +40,10 @@ function handleInput() {
     const bgColor = inputBgColor.value
     display.style.bgColor = bgColor
     showBgColor.innerHTML = bgColor
+
+    const diplayText = enterText.value
+    display.style.displayText = displayText
+    display.innerHTML = displayText
 
  }
 
