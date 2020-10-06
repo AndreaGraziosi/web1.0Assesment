@@ -1,0 +1,54 @@
+#style-parameters {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+
+}
+#student-info {
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+
+#data-input {
+    display:flex;
+    flex-direction:column;
+    border-style: solid;
+    border-color: #0f0e0e;
+    height: 600px;
+    width: 400px;
+    margin:2em;
+
+}
+
+#input-size {
+    padding:.5em .5em .5em .5em;
+    margin: 1em;
+}
+
+#select-font {
+    padding:.5em .5em .5em .5em;
+    margin: 1em;
+
+}
+
+#input-color {
+    padding:.5em .5em .5em .5em;
+    margin: 1em;
+    
+}
+#input-bg-color {
+    padding:.5em .5em .5em .5em;
+    margin: 1em;
+    
+}
+#headline-display {
+    border-style: solid;
+    border-color: #0f0e0e;
+    height: 200px;
+    width: 400px;
+   
+    
+
+}

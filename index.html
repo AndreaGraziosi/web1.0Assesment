@@ -9,54 +9,60 @@
 
 </head>
 <body>
-    <div id="student-info">
-        <h1>Andrea Graziosi</h1>
-        <p>My favorite Color is Purple and I wear Havaianas </p>
-    </div>
+<section id="style-parameters">
 
-    <div id="data-input">
-        <h1>Font Styler</h1>
-        <label>Font Size </label>
-        <input id="input-size" type="number">
+  <div id="column1">
+    
+        <div id="student-info">
+             <h1>Andrea Graziosi</h1>
+             <p>My favorite Color is Purple and I wear Havaianas </p>
+        </div>
 
-        <label>
+        <div id="data-input">
+            <h1>Font Styler</h1>
+            <label>Font Size </label>
+            <input id="input-size" type="number">
+
+            <label>
             Font Family
             <select id="select-font">
-                <option value="helvitic">Helvetic</option>
+                <option value="helvetic">Helvetic</option>
                 <option value="arial">arial</option>
                 <option value="times-new-roman">Times New Roman</option>
                 <option value="georgia">Georgia</option>
-            </select>
-        </label>
-        <buttononclick="">Chanhe Font</buttononclick>
+             </select>
+             </label>
+            
 
-        <label> Font Color</label>
-        <input id="input-color" type="color" value="#000">
+            <label> Font Color</label>
+            <input id="input-color" type="color" value="#000">
 
-        <label>Background Color</label>
-        <input id="input-bg-color" type="color" value="#fff">
+            <label>Background Color</label><br>
+            <input id="input-bg-color" type="color" value="#fff"><br>
 
-        <label>Enter Text</label>
-        <textarea id="enter-text"></textarea>
-    </div>
+            <label>Enter Text</label><br>
+            <textarea id="enter-text">Sample Text</textarea>
+        </div>
+ </div>   
+<!------------------------------------------------------------------------>
+    <div id="column2"> 
 
-    <div id="headline-display">
-        <h1 id="display">Style Me!</h1>
+         <div id="headline-display">
+             <h1 id="display">Style Me!</h1>
 
-    </div>
+         </div>
 
-    <div id="data-output">
-        <h1>Font Settings</h1>
-        <pre><code>.headline {
+         <div id="data-output">
+              <h1>Font Settings</h1>
+             <pre><code>.headline {
             font-size: <span id="show-size">16</span>px;
             font-family: <span id="show-font">Times</span>;
             color: <span id="show-color">#000</span>;
             background-color: <span id="show-bg-color">#fff</span>;
-        }</code></pre>
-
-
+             }</code></pre>
+         </div>
     </div>
 
-
+</section>
 </body>
 </html>
